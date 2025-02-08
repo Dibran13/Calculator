@@ -16,6 +16,18 @@ int main() {
     cout << "Jepni numrin e oreve te punes: ";
     cin >> orePune;
 
+
+ 
+ cout << "\n-------------------------------------" << endl;
+    cout << fixed << setprecision(2);
+    cout << "Paga Bruto: " << pagaBruto << " EUR" << endl;
+    cout << "Bonusi i përfshirë: " << bonusi << " EUR" << endl;
+    cout << "Tatimi (15%): " << tatimi << " EUR" << endl;
+    cout << "Paga Neto: " << pagaNeto << " EUR" << endl;
+    cout << "-------------------------------------" << endl;
+    cout << "Faleminderit qe perdoret kalkulatorin e pages!" << endl;
+    
+
   return 0;
 }
 
