@@ -30,5 +30,16 @@ int main() {
 
   return 0;
 }
-
+ cout << "Jepni pagen per ore: ";
+    cin >> pagaPerOre;
+    
+    pagaBruto = orePune * pagaPerOre;
+    
+    if (orePune > 40) {
+        bonusi = (orePune - 40) * bonusPerOre;
+        pagaBruto += bonusi;
+    }
+    
+    tatimi = pagaBruto * normaTatimit;
+    pagaNeto = pagaBruto - tatimi;
 
