@@ -26,11 +26,8 @@ int main() {
     cout << "Paga Neto: " << pagaNeto << " EUR" << endl;
     cout << "-------------------------------------" << endl;
     cout << "Faleminderit qe perdoret kalkulatorin e pages!" << endl;
-    
 
-  return 0;
-}
- cout << "Jepni pagen per ore: ";
+  cout << "Jepni pagen per ore: ";
     cin >> pagaPerOre;
     
     pagaBruto = orePune * pagaPerOre;
@@ -42,4 +39,9 @@ int main() {
     
     tatimi = pagaBruto * normaTatimit;
     pagaNeto = pagaBruto - tatimi;
+    
+
+  return 0;
+}
+
 
